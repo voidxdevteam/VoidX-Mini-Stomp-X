@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-11 17:34:28",
+  "updated_at": "2023-07-12 18:07:13",
   "stick": "",
   "documents": [
     {
@@ -22,11 +22,11 @@
         "825586439d9f5f76b103cefffab527a8": 4,
         "ba036d06b33b4f9ebf13893ce642dc1e": 1,
         "e9e3af65fc87eef7d9725f81b11737ae": 2,
-        "32e4919d23af4eecd707a20e2b831b93": 20,
+        "32e4919d23af4eecd707a20e2b831b93": 23,
         "154b66255b01a09bf1c88bb1ea89be78": 13,
         "b1d30d497d224ba09bec7e2c6ad65229": 7,
-        "90af5d23edc886868842301dfd7d8072": 1,
-        "2b1795cdb1f067ec2dd08c046a933608": 14,
+        "90af5d23edc886868842301dfd7d8072": 3,
+        "2b1795cdb1f067ec2dd08c046a933608": 22,
         "7e7f373c37f51490171cc31d2dab9208": 1,
         "233c49238e4f4a1a9b27c9aca136642b": 1,
         "2291b26429a0a53b9787e50172e9245c": 2,
@@ -35,12 +35,12 @@
         "e0c92c923a63b39a0d9cbce09b2c5820": 9,
         "5563491116b5449a9a46d9ad40c4d199": 3,
         "ebf87b771fca429b810052cffdd48e69": 1,
-        "4d1ef67d2be8a3575d188ee702dc956b": 5,
+        "4d1ef67d2be8a3575d188ee702dc956b": 8,
         "bb7d7b4bed7d4016a46bd3b30c5ea3e6": 1,
-        "5e75589f09ee4d6688786c75d2e9a48e": 3,
+        "5e75589f09ee4d6688786c75d2e9a48e": 1,
         "fcd3d5096cdf44828e971d7484907549": 4,
         "6e50988ce1c8435ea91966606c46f5e7": 4,
-        "30307ca423d6743e3d26c0e68f9fab12": 4,
+        "30307ca423d6743e3d26c0e68f9fab12": 6,
         "9338b57b0ad2cd67402b4c5ba57205b0": 6,
         "6d85c3f02df4499296d3376cbc57c811": 1,
         "f450e8b72f1378fb88eec060ca9132fe": 1,
@@ -50,7 +50,7 @@
         "637415f70eb949abfaeba2abe658ee9b": 1,
         "cb327be7d573ef8872e8ba2e1b8e66fb": 2,
         "739ad43e70f87969aa0056ebc970a314": 2,
-        "16b18f2c99f6a950b5cda7f5ccbfe984": 4
+        "f1700fbb157b4ddb9988469190c49a46": 1
       },
       "BOM": [
         [
@@ -92,9 +92,9 @@
         ],
         [
           "1uF",
-          21,
+          24,
           "C0603",
-          "C5,C7,C8,C14,C15,C19,C21,C22,C24,C26,C28,C30,C31,C33,C34,C38,C41,C43,C46,C47,C48",
+          "C5,C7,C8,C14,C15,C19,C21,C22,C24,C26,C28,C30,C31,C33,C34,C37,C38,C41,C43,C46,C47,C48,C49,C50",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer Part": "CL10A105KB8NNNC",
@@ -107,9 +107,9 @@
         ],
         [
           "220uF",
-          3,
+          1,
           "CAP-SMD_BD6.3-L6.6-W6.6-FD",
-          "C6,C36,C37",
+          "C6",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "SEMTECH",
@@ -197,9 +197,9 @@
         ],
         [
           "600Ω",
-          5,
+          8,
           "L0603",
-          "L1,L2,L3,L4,L6",
+          "L1,L2,L3,L4,L6,L7,L8,L9",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "Sunlord(顺络)",
@@ -269,18 +269,18 @@
           }
         ],
         [
-          "20Ω",
+          "56kΩ",
           4,
-          "R1206",
-          "R1,R2,R12,R29",
+          "R0603",
+          "R1,R2,R56,R59",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UNI-ROYAL(厚声)",
-            "BOM_Manufacturer Part": "1206W4F200JT5E",
-            "BOM_Supplier Part": "C17955",
+            "BOM_Manufacturer Part": "0603WAF5602T5E",
+            "BOM_Supplier Part": "C23206",
             "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
-            "uuid": "16b18f2c99f6a950b5cda7f5ccbfe984"
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "2b1795cdb1f067ec2dd08c046a933608"
           }
         ],
         [
@@ -359,6 +359,21 @@
           }
         ],
         [
+          "47kΩ",
+          10,
+          "R0603",
+          "R12,R18,R19,R27,R29,R45,R48,R50,R54,R55",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "0603WAF4702T5E",
+            "BOM_Supplier Part": "C25819",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "2b1795cdb1f067ec2dd08c046a933608"
+          }
+        ],
+        [
           "470Ω",
           5,
           "R0603",
@@ -374,25 +389,10 @@
           }
         ],
         [
-          "56kΩ",
+          "11kΩ",
           6,
           "R0603",
-          "R18,R19,R27,R45,R48,R50",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
-            "BOM_Manufacturer Part": "0603WAF5602T5E",
-            "BOM_Supplier Part": "C23206",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "2b1795cdb1f067ec2dd08c046a933608"
-          }
-        ],
-        [
-          "11kΩ",
-          4,
-          "R0603",
-          "R20,R21,R36,R37",
+          "R20,R21,R31,R32,R36,R37",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -464,6 +464,34 @@
           }
         ],
         [
+          "DRE_ENABLE",
+          1,
+          "R0603",
+          "R_DRE",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "90af5d23edc886868842301dfd7d8072"
+          }
+        ],
+        [
+          "HP_ROUTER",
+          1,
+          "R0603",
+          "R_HP",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "90af5d23edc886868842301dfd7d8072"
+          }
+        ],
+        [
           "EC11E1534408",
           1,
           "SW-TH_EC11XXXXXXXX",
@@ -490,6 +518,21 @@
             "BOM_Supplier": "",
             "puuid": "a7abf037894741a1bf472cb6752556ee",
             "uuid": "e682d51f39a54e03a3d963394c27740c"
+          }
+        ],
+        [
+          "TPA6138A2PWR",
+          1,
+          "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C183097",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "TPA6138A2PWR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "80a3980f11914ca3a11dea6a81230c3d",
+            "uuid": "f1700fbb157b4ddb9988469190c49a46"
           }
         ],
         [
@@ -538,26 +581,26 @@
           }
         ],
         [
-          "MC4558CPT",
+          "TL082CPWR",
           4,
           "TSSOP-8_L4.4-W3.0-P0.65-LS6.4-TL",
           "U2,U4,U5,U7",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C283326",
-            "BOM_Manufacturer": "ST(意法半导体)",
-            "BOM_Manufacturer Part": "MC4558CPT",
+            "BOM_Supplier Part": "C85346",
+            "BOM_Manufacturer": "TI(德州仪器)",
+            "BOM_Manufacturer Part": "TL082CPWR",
             "puuid": "58ba79069b8942c58fbeb6f4e309b0be",
             "uuid": "fcd3d5096cdf44828e971d7484907549",
             "BOM_JLCPCB Part Class": "Extended Part"
           }
         ]
       ],
-      "updateTime": 1689089339,
+      "updateTime": 1689178001,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-11 17:28:59"
+      "updated_at": "2023-07-12 18:06:41"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -569,39 +612,39 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "f8151fdc728a41ebbc304e11d39e5437": 44,
-        "bbf2d74717914929b5e52e3caa0392b2": 2,
-        "a4d354a2f7b24c56ac4f3ee62e31a868": 1,
-        "398691f1f785460098bbe5ee6590333c": 45,
-        "43583875b34d432e942198f906796c56": 1,
-        "89243c15a2974ba08305eced8ca2c9d4": 1,
-        "8e9b1be4bcb6420dbd1d09bf04b02792": 4,
-        "156643598b734e60866538651ba9a456": 2,
+        "398691f1f785460098bbe5ee6590333c": 57,
+        "80a3980f11914ca3a11dea6a81230c3d": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 47,
+        "1f261cf72cb1479ca32177c31156ede3": 8,
         "58ba79069b8942c58fbeb6f4e309b0be": 4,
-        "c0a8d5074cd14a40a7baee3704c47035": 3,
+        "c0a8d5074cd14a40a7baee3704c47035": 1,
         "7bc2c18d5db24251b73f6057e8a74327": 4,
         "6913befbe859461293ab50ef2eacde8c": 1,
-        "1f261cf72cb1479ca32177c31156ede3": 5,
         "53bbe01a5e5c4958ba8b22d279d0d9e5": 1,
+        "bbf2d74717914929b5e52e3caa0392b2": 2,
         "7fc86b4c582346dba20ebcbc5232ab3f": 4,
         "7305a5a1fd614c159fb1c77e25fab662": 1,
         "f5f3363235db4baaadc419795623ad85": 1,
+        "a4d354a2f7b24c56ac4f3ee62e31a868": 1,
+        "43583875b34d432e942198f906796c56": 1,
+        "89243c15a2974ba08305eced8ca2c9d4": 1,
+        "156643598b734e60866538651ba9a456": 2,
         "44978b002e024a8c8985059ea6748038": 1,
         "a7abf037894741a1bf472cb6752556ee": 1,
         "ca76b697af4943349a837efa80444cc7": 1,
         "919693433f464bb598ce5c6cd04ef28b": 1
       },
       "BOM": [],
-      "updateTime": 1689089668,
+      "updateTime": 1689178033,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-11 17:34:28"
+      "updated_at": "2023-07-12 18:07:13"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689089339624
+  "schfilemtime": 1689178001181
 }
