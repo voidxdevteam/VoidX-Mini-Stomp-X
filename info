@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-17 18:28:03",
+  "updated_at": "2023-07-17 22:51:31",
   "stick": "",
   "documents": [
     {
@@ -596,11 +596,11 @@
           }
         ]
       ],
-      "updateTime": 1689603704,
+      "updateTime": 1689624509,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-17 16:21:44"
+      "updated_at": "2023-07-17 22:08:29"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -635,16 +635,16 @@
         "80a3980f11914ca3a11dea6a81230c3d": 1
       },
       "BOM": [],
-      "updateTime": 1689611283,
+      "updateTime": 1689627091,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-17 18:28:03"
+      "updated_at": "2023-07-17 22:51:31"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689603704363
+  "schfilemtime": 1689624509149
 }
