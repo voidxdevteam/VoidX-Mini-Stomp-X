@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-12 18:07:13",
+  "updated_at": "2023-07-17 17:03:18",
   "stick": "",
   "documents": [
     {
@@ -40,7 +40,7 @@
         "5e75589f09ee4d6688786c75d2e9a48e": 1,
         "fcd3d5096cdf44828e971d7484907549": 4,
         "6e50988ce1c8435ea91966606c46f5e7": 4,
-        "30307ca423d6743e3d26c0e68f9fab12": 6,
+        "30307ca423d6743e3d26c0e68f9fab12": 4,
         "9338b57b0ad2cd67402b4c5ba57205b0": 6,
         "6d85c3f02df4499296d3376cbc57c811": 1,
         "f450e8b72f1378fb88eec060ca9132fe": 1,
@@ -390,9 +390,9 @@
         ],
         [
           "11kΩ",
-          6,
+          4,
           "R0603",
-          "R20,R21,R31,R32,R36,R37",
+          "R20,R21,R36,R37",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -596,11 +596,11 @@
           }
         ]
       ],
-      "updateTime": 1689178001,
+      "updateTime": 1689603704,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-12 18:06:41"
+      "updated_at": "2023-07-17 16:21:44"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -612,39 +612,39 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 57,
-        "80a3980f11914ca3a11dea6a81230c3d": 1,
         "f8151fdc728a41ebbc304e11d39e5437": 47,
-        "1f261cf72cb1479ca32177c31156ede3": 8,
-        "58ba79069b8942c58fbeb6f4e309b0be": 4,
-        "c0a8d5074cd14a40a7baee3704c47035": 1,
-        "7bc2c18d5db24251b73f6057e8a74327": 4,
-        "6913befbe859461293ab50ef2eacde8c": 1,
-        "53bbe01a5e5c4958ba8b22d279d0d9e5": 1,
-        "bbf2d74717914929b5e52e3caa0392b2": 2,
-        "7fc86b4c582346dba20ebcbc5232ab3f": 4,
-        "7305a5a1fd614c159fb1c77e25fab662": 1,
-        "f5f3363235db4baaadc419795623ad85": 1,
-        "a4d354a2f7b24c56ac4f3ee62e31a868": 1,
-        "43583875b34d432e942198f906796c56": 1,
-        "89243c15a2974ba08305eced8ca2c9d4": 1,
-        "156643598b734e60866538651ba9a456": 2,
-        "44978b002e024a8c8985059ea6748038": 1,
-        "a7abf037894741a1bf472cb6752556ee": 1,
+        "398691f1f785460098bbe5ee6590333c": 55,
+        "919693433f464bb598ce5c6cd04ef28b": 1,
         "ca76b697af4943349a837efa80444cc7": 1,
-        "919693433f464bb598ce5c6cd04ef28b": 1
+        "a7abf037894741a1bf472cb6752556ee": 1,
+        "44978b002e024a8c8985059ea6748038": 1,
+        "156643598b734e60866538651ba9a456": 2,
+        "89243c15a2974ba08305eced8ca2c9d4": 1,
+        "43583875b34d432e942198f906796c56": 1,
+        "a4d354a2f7b24c56ac4f3ee62e31a868": 1,
+        "bbf2d74717914929b5e52e3caa0392b2": 2,
+        "1f261cf72cb1479ca32177c31156ede3": 8,
+        "f5f3363235db4baaadc419795623ad85": 1,
+        "7305a5a1fd614c159fb1c77e25fab662": 1,
+        "7fc86b4c582346dba20ebcbc5232ab3f": 4,
+        "7bc2c18d5db24251b73f6057e8a74327": 4,
+        "53bbe01a5e5c4958ba8b22d279d0d9e5": 1,
+        "6913befbe859461293ab50ef2eacde8c": 1,
+        "c0a8d5074cd14a40a7baee3704c47035": 1,
+        "58ba79069b8942c58fbeb6f4e309b0be": 4,
+        "80a3980f11914ca3a11dea6a81230c3d": 1
       },
       "BOM": [],
-      "updateTime": 1689178033,
+      "updateTime": 1689606198,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-12 18:07:13"
+      "updated_at": "2023-07-17 17:03:18"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689178001181
+  "schfilemtime": 1689603704363
 }
