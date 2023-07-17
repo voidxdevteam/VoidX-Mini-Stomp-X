@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-17 17:03:18",
+  "updated_at": "2023-07-17 18:02:18",
   "stick": "",
   "documents": [
     {
@@ -635,11 +635,11 @@
         "80a3980f11914ca3a11dea6a81230c3d": 1
       },
       "BOM": [],
-      "updateTime": 1689606198,
+      "updateTime": 1689609738,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-17 17:03:18"
+      "updated_at": "2023-07-17 18:02:18"
     }
   ],
   "sort": [],
