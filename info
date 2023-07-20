@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-20 16:17:13",
+  "updated_at": "2023-07-20 16:53:23",
   "stick": "",
   "documents": [
     {
@@ -152,21 +152,6 @@
           }
         ],
         [
-          "PZ254V-11-02P",
-          2,
-          "HDR-TH_2P-P2.54-V-M",
-          "H1,H3",
-          {
-            "BOM_Supplier": "",
-            "BOM_Supplier Part": "",
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e6b180e1316a4d0690f78b72797504c2",
-            "uuid": "6107490819734af0acd77bc02316fe34"
-          }
-        ],
-        [
           "PM254V-12-10P-H85",
           1,
           "HDR-TH_10P-P2.54-V-F-R2-C5-S2.54",
@@ -276,9 +261,9 @@
           "P1",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer": "ZHOURI(洲日)",
             "BOM_Manufacturer Part": "2.54mm 2*20PFemale header",
-            "BOM_Supplier Part": "C50982",
+            "BOM_Supplier Part": "C2977589",
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "7305a5a1fd614c159fb1c77e25fab662",
             "uuid": "7e7f373c37f51490171cc31d2dab9208"
@@ -480,49 +465,6 @@
           }
         ],
         [
-          "DRE_ENABLE",
-          1,
-          "R0603",
-          "R_DRE",
-          {
-            "BOM_Supplier": "",
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "90af5d23edc886868842301dfd7d8072"
-          }
-        ],
-        [
-          "HP_ROUTER",
-          1,
-          "R0603",
-          "R_HP",
-          {
-            "BOM_Supplier": "",
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "puuid": "398691f1f785460098bbe5ee6590333c",
-            "uuid": "90af5d23edc886868842301dfd7d8072"
-          }
-        ],
-        [
-          "EC11E1534408",
-          1,
-          "SW-TH_EC11XXXXXXXX",
-          "SW1",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C278348",
-            "BOM_Manufacturer": "ALPS Electric",
-            "BOM_Manufacturer Part": "EC11E1534408",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "ca76b697af4943349a837efa80444cc7",
-            "uuid": "087f3edab9ea4bb1908d615e1608606c"
-          }
-        ],
-        [
           "DSP_MODULE_PRO_PLACEHOLDER",
           1,
           "DSP_MODULE_PRO_FOOTPRINT",
@@ -612,11 +554,11 @@
           }
         ]
       ],
-      "updateTime": 1689862587,
+      "updateTime": 1689864797,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-20 16:16:27"
+      "updated_at": "2023-07-20 16:53:17"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -652,16 +594,16 @@
         "44978b002e024a8c8985059ea6748038": 1
       },
       "BOM": [],
-      "updateTime": 1689862633,
+      "updateTime": 1689864803,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-20 16:17:13"
+      "updated_at": "2023-07-20 16:53:23"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689862587243
+  "schfilemtime": 1689864797775
 }
