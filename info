@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-20 16:05:17",
+  "updated_at": "2023-07-20 16:17:13",
   "stick": "",
   "documents": [
     {
@@ -157,10 +157,10 @@
           "HDR-TH_2P-P2.54-V-M",
           "H1,H3",
           {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C492401",
-            "BOM_Manufacturer": "XFCN",
-            "BOM_Manufacturer Part": "PZ254V-11-02P",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "e6b180e1316a4d0690f78b72797504c2",
             "uuid": "6107490819734af0acd77bc02316fe34"
@@ -612,11 +612,11 @@
           }
         ]
       ],
-      "updateTime": 1689861917,
+      "updateTime": 1689862587,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-20 16:05:17"
+      "updated_at": "2023-07-20 16:16:27"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -652,16 +652,16 @@
         "44978b002e024a8c8985059ea6748038": 1
       },
       "BOM": [],
-      "updateTime": 1689861915,
+      "updateTime": 1689862633,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-20 16:05:15"
+      "updated_at": "2023-07-20 16:17:13"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689861917702
+  "schfilemtime": 1689862587243
 }
