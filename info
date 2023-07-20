@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-07-17 22:51:31",
+  "updated_at": "2023-07-20 16:05:17",
   "stick": "",
   "documents": [
     {
@@ -16,14 +16,13 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "e682d51f39a54e03a3d963394c27740c": 1,
-        "87ea7f7c000f4f66a34a059c4fdd5495": 4,
         "087f3edab9ea4bb1908d615e1608606c": 1,
         "c8c53757c33d4587ba73c325a85c2cc1": 1,
         "825586439d9f5f76b103cefffab527a8": 4,
         "ba036d06b33b4f9ebf13893ce642dc1e": 1,
         "e9e3af65fc87eef7d9725f81b11737ae": 2,
         "32e4919d23af4eecd707a20e2b831b93": 23,
-        "154b66255b01a09bf1c88bb1ea89be78": 13,
+        "154b66255b01a09bf1c88bb1ea89be78": 29,
         "b1d30d497d224ba09bec7e2c6ad65229": 7,
         "90af5d23edc886868842301dfd7d8072": 3,
         "2b1795cdb1f067ec2dd08c046a933608": 22,
@@ -35,7 +34,7 @@
         "e0c92c923a63b39a0d9cbce09b2c5820": 9,
         "5563491116b5449a9a46d9ad40c4d199": 3,
         "ebf87b771fca429b810052cffdd48e69": 1,
-        "4d1ef67d2be8a3575d188ee702dc956b": 8,
+        "4d1ef67d2be8a3575d188ee702dc956b": 10,
         "bb7d7b4bed7d4016a46bd3b30c5ea3e6": 1,
         "5e75589f09ee4d6688786c75d2e9a48e": 1,
         "fcd3d5096cdf44828e971d7484907549": 4,
@@ -43,14 +42,16 @@
         "30307ca423d6743e3d26c0e68f9fab12": 4,
         "9338b57b0ad2cd67402b4c5ba57205b0": 6,
         "6d85c3f02df4499296d3376cbc57c811": 1,
-        "f450e8b72f1378fb88eec060ca9132fe": 1,
+        "f450e8b72f1378fb88eec060ca9132fe": 3,
         "27c03a3de524a729d00ed0af60c40d93": 1,
         "f8ac34faba420ffa9cfe6715ed79ca24": 1,
         "fc87473b0af14ca192a1326306082cf7": 1,
         "637415f70eb949abfaeba2abe658ee9b": 1,
         "cb327be7d573ef8872e8ba2e1b8e66fb": 2,
         "739ad43e70f87969aa0056ebc970a314": 2,
-        "f1700fbb157b4ddb9988469190c49a46": 1
+        "f1700fbb157b4ddb9988469190c49a46": 1,
+        "6107490819734af0acd77bc02316fe34": 2,
+        "f56d4cdac28a48dc89e3a234c72c8030": 4
       },
       "BOM": [
         [
@@ -62,9 +63,9 @@
         ],
         [
           "100nF",
-          14,
+          30,
           "C0603",
-          "C1,C2,C4,C9,C11,C16,C18,C20,C23,C29,C32,C40,C42,C45",
+          "C1,C2,C4,C9,C11,C13,C16,C18,C20,C23,C29,C32,C36,C40,C42,C45,C51,C52,C53,C54,C55,C56,C57,C58,C59,C60,C61,C62,C63,C64",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "YAGEO",
@@ -121,21 +122,6 @@
           }
         ],
         [
-          "CK6.35-3+15A-17",
-          4,
-          "AUDIO-TH_CK6.35-3-15A-17",
-          "CN1,CN2,CN3,CN4",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C718061",
-            "BOM_Manufacturer": "JINJIA",
-            "BOM_Manufacturer Part": "CK6.35-3+15A-17",
-            "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "7fc86b4c582346dba20ebcbc5232ab3f",
-            "uuid": "87ea7f7c000f4f66a34a059c4fdd5495"
-          }
-        ],
-        [
           "B5819W_C8598",
           2,
           "SOD-123_L2.7-W1.6-LS3.7-RD-1",
@@ -163,6 +149,21 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "6913befbe859461293ab50ef2eacde8c",
             "uuid": "bb7d7b4bed7d4016a46bd3b30c5ea3e6"
+          }
+        ],
+        [
+          "PZ254V-11-02P",
+          2,
+          "HDR-TH_2P-P2.54-V-M",
+          "H1,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C492401",
+            "BOM_Manufacturer": "XFCN",
+            "BOM_Manufacturer Part": "PZ254V-11-02P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "6107490819734af0acd77bc02316fe34"
           }
         ],
         [
@@ -196,10 +197,25 @@
           }
         ],
         [
+          "PJ-609BA",
+          4,
+          "AUDIO-TH_PJ-609BA",
+          "J5,J6,J7,J8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C309277",
+            "BOM_Manufacturer": "HOOYA(皓宇电子)",
+            "BOM_Manufacturer Part": "PJ-609BA",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4ee394b9762d4989a64a5894b9323c37",
+            "uuid": "f56d4cdac28a48dc89e3a234c72c8030"
+          }
+        ],
+        [
           "600Ω",
-          8,
+          10,
           "L0603",
-          "L1,L2,L3,L4,L6,L7,L8,L9",
+          "L1,L2,L3,L4,L6,L7,L8,L9,L10,L11",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "Sunlord(顺络)",
@@ -212,9 +228,9 @@
         ],
         [
           "10uH",
-          1,
+          3,
           "IND-SMD_L4.0-W4.0",
-          "L5",
+          "L5,L12,L13",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "Sunlord",
@@ -596,11 +612,11 @@
           }
         ]
       ],
-      "updateTime": 1689624509,
+      "updateTime": 1689861917,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-07-17 22:08:29"
+      "updated_at": "2023-07-20 16:05:17"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -612,39 +628,40 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "f8151fdc728a41ebbc304e11d39e5437": 47,
         "398691f1f785460098bbe5ee6590333c": 55,
-        "919693433f464bb598ce5c6cd04ef28b": 1,
-        "ca76b697af4943349a837efa80444cc7": 1,
-        "a7abf037894741a1bf472cb6752556ee": 1,
-        "44978b002e024a8c8985059ea6748038": 1,
-        "156643598b734e60866538651ba9a456": 2,
-        "89243c15a2974ba08305eced8ca2c9d4": 1,
-        "43583875b34d432e942198f906796c56": 1,
-        "a4d354a2f7b24c56ac4f3ee62e31a868": 1,
-        "bbf2d74717914929b5e52e3caa0392b2": 2,
-        "1f261cf72cb1479ca32177c31156ede3": 8,
+        "f8151fdc728a41ebbc304e11d39e5437": 63,
         "f5f3363235db4baaadc419795623ad85": 1,
         "7305a5a1fd614c159fb1c77e25fab662": 1,
-        "7fc86b4c582346dba20ebcbc5232ab3f": 4,
         "7bc2c18d5db24251b73f6057e8a74327": 4,
+        "bbf2d74717914929b5e52e3caa0392b2": 2,
+        "1f261cf72cb1479ca32177c31156ede3": 10,
         "53bbe01a5e5c4958ba8b22d279d0d9e5": 1,
         "6913befbe859461293ab50ef2eacde8c": 1,
         "c0a8d5074cd14a40a7baee3704c47035": 1,
         "58ba79069b8942c58fbeb6f4e309b0be": 4,
-        "80a3980f11914ca3a11dea6a81230c3d": 1
+        "80a3980f11914ca3a11dea6a81230c3d": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 2,
+        "156643598b734e60866538651ba9a456": 2,
+        "89243c15a2974ba08305eced8ca2c9d4": 1,
+        "43583875b34d432e942198f906796c56": 1,
+        "a4d354a2f7b24c56ac4f3ee62e31a868": 3,
+        "4ee394b9762d4989a64a5894b9323c37": 4,
+        "919693433f464bb598ce5c6cd04ef28b": 1,
+        "ca76b697af4943349a837efa80444cc7": 1,
+        "a7abf037894741a1bf472cb6752556ee": 1,
+        "44978b002e024a8c8985059ea6748038": 1
       },
       "BOM": [],
-      "updateTime": 1689627091,
+      "updateTime": 1689861915,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-17 22:51:31"
+      "updated_at": "2023-07-20 16:05:15"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1689624509149
+  "schfilemtime": 1689861917702
 }
