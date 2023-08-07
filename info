@@ -4,7 +4,7 @@
   "name": "pedalBreakout_NEW",
   "content": "",
   "created_at": "2023-07-11 13:30:19",
-  "updated_at": "2023-08-07 13:04:37",
+  "updated_at": "2023-08-07 13:36:15",
   "stick": "",
   "documents": [
     {
@@ -19,7 +19,6 @@
         "087f3edab9ea4bb1908d615e1608606c": 1,
         "c8c53757c33d4587ba73c325a85c2cc1": 1,
         "825586439d9f5f76b103cefffab527a8": 4,
-        "ba036d06b33b4f9ebf13893ce642dc1e": 1,
         "e9e3af65fc87eef7d9725f81b11737ae": 2,
         "32e4919d23af4eecd707a20e2b831b93": 27,
         "154b66255b01a09bf1c88bb1ea89be78": 13,
@@ -43,14 +42,15 @@
         "f450e8b72f1378fb88eec060ca9132fe": 3,
         "27c03a3de524a729d00ed0af60c40d93": 1,
         "637415f70eb949abfaeba2abe658ee9b": 1,
-        "cb327be7d573ef8872e8ba2e1b8e66fb": 3,
+        "cb327be7d573ef8872e8ba2e1b8e66fb": 5,
         "739ad43e70f87969aa0056ebc970a314": 2,
         "f1700fbb157b4ddb9988469190c49a46": 1,
         "6107490819734af0acd77bc02316fe34": 2,
         "f56d4cdac28a48dc89e3a234c72c8030": 4,
         "be6185afc16a33b6adf26dfd238fe345": 4,
         "b6da2e2c8c8d62cf5f007b3218171c81": 4,
-        "3fe61b55bde549b08fc827ad1a183bed": 1
+        "3fe61b55bde549b08fc827ad1a183bed": 1,
+        "4e9ea18ed39b41818d3d99fd72c3760a": 1
       },
       "BOM": [
         [
@@ -226,17 +226,18 @@
           }
         ],
         [
-          "WP154A RGB LED",
+          "TJ-L5FYTXHMCSLCRGB-A5",
           1,
-          "5MM RGB 1.25MM PINS",
-          "LED2",
+          "LED-TH_4P-BD5.8-P1.30",
+          "LED1",
           {
-            "BOM_Supplier Part": "C32985",
+            "BOM_Manufacturer Part": "TJ-L5FYTXHMCSLCRGB-A5",
+            "puuid": "ac54e43d4c1941498c70b70974b687d5",
+            "uuid": "4e9ea18ed39b41818d3d99fd72c3760a",
             "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "KENTO",
-            "BOM_Manufacturer Part": "φ5 RGB Transparent",
-            "puuid": "919693433f464bb598ce5c6cd04ef28b",
-            "uuid": "ba036d06b33b4f9ebf13893ce642dc1e"
+            "BOM_Manufacturer": "TOGIALED(统佳)",
+            "BOM_Supplier Part": "C330759",
+            "BOM_JLCPCB Part Class": "Extended Part"
           }
         ],
         [
@@ -419,6 +420,21 @@
           }
         ],
         [
+          "3.3kΩ",
+          4,
+          "R0603_NEW",
+          "R35,R47,R52,R53",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "0603WAF3301T5E",
+            "BOM_Supplier Part": "C22978",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "156643598b734e60866538651ba9a456",
+            "uuid": "cb327be7d573ef8872e8ba2e1b8e66fb"
+          }
+        ],
+        [
           "240Ω",
           1,
           "R0603",
@@ -441,21 +457,6 @@
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
-            "BOM_Manufacturer Part": "0603WAF3301T5E",
-            "BOM_Supplier Part": "C22978",
-            "BOM_JLCPCB Part Class": "Basic Part",
-            "puuid": "156643598b734e60866538651ba9a456",
-            "uuid": "cb327be7d573ef8872e8ba2e1b8e66fb"
-          }
-        ],
-        [
-          "3.3kΩ",
-          2,
-          "R0603_NEW",
-          "R52,R53",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
             "BOM_Manufacturer Part": "0603WAF3301T5E",
             "BOM_Supplier Part": "C22978",
             "BOM_JLCPCB Part Class": "Basic Part",
@@ -539,9 +540,9 @@
         ],
         [
           "TL072IDR",
-          5,
+          4,
           "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
-          "U2,U4,U5,U6,U7",
+          "U2,U4,U5,U7",
           {
             "BOM_Manufacturer Part": "TL072IDR",
             "puuid": "71450838f2174409b429143f6acc9d2a",
@@ -553,11 +554,11 @@
           }
         ]
       ],
-      "updateTime": 1691406277,
+      "updateTime": 1691408175,
       "createTime": 1689075020,
       "histories": [],
       "created_at": "2023-07-11 13:30:20",
-      "updated_at": "2023-08-07 13:04:37"
+      "updated_at": "2023-08-07 13:36:15"
     },
     {
       "uuid": "c9a1d00f324316c2b1d19d1bc50a3d60",
@@ -569,8 +570,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "398691f1f785460098bbe5ee6590333c": 55,
-        "f8151fdc728a41ebbc304e11d39e5437": 63,
+        "f8151fdc728a41ebbc304e11d39e5437": 51,
+        "398691f1f785460098bbe5ee6590333c": 54,
+        "71450838f2174409b429143f6acc9d2a": 4,
+        "89243c15a2974ba08305eced8ca2c9d4": 1,
+        "156643598b734e60866538651ba9a456": 3,
+        "4ee394b9762d4989a64a5894b9323c37": 4,
         "f5f3363235db4baaadc419795623ad85": 1,
         "7305a5a1fd614c159fb1c77e25fab662": 1,
         "7bc2c18d5db24251b73f6057e8a74327": 4,
@@ -579,30 +584,26 @@
         "53bbe01a5e5c4958ba8b22d279d0d9e5": 1,
         "6913befbe859461293ab50ef2eacde8c": 1,
         "c0a8d5074cd14a40a7baee3704c47035": 1,
-        "58ba79069b8942c58fbeb6f4e309b0be": 4,
         "80a3980f11914ca3a11dea6a81230c3d": 1,
         "e6b180e1316a4d0690f78b72797504c2": 2,
-        "156643598b734e60866538651ba9a456": 2,
-        "89243c15a2974ba08305eced8ca2c9d4": 1,
         "43583875b34d432e942198f906796c56": 1,
         "a4d354a2f7b24c56ac4f3ee62e31a868": 3,
-        "4ee394b9762d4989a64a5894b9323c37": 4,
         "919693433f464bb598ce5c6cd04ef28b": 1,
         "ca76b697af4943349a837efa80444cc7": 1,
         "a7abf037894741a1bf472cb6752556ee": 1,
         "44978b002e024a8c8985059ea6748038": 1
       },
       "BOM": [],
-      "updateTime": 1689931491,
+      "updateTime": 1691406551,
       "createTime": 1689075030,
       "histories": [],
       "created_at": "2023-07-11 13:30:30",
-      "updated_at": "2023-07-21 11:24:51"
+      "updated_at": "2023-08-07 13:09:11"
     }
   ],
   "sort": [],
   "title": "pedalBreakout_NEW",
   "foldername": "pedalBreakout_NEW",
   "schfilename": "pedalBreakout_NEW.json",
-  "schfilemtime": 1691406277721
+  "schfilemtime": 1691408175806
 }
